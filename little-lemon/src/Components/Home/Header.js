@@ -1,7 +1,7 @@
 import React from "react";
-import NavBar from "./NavBar";
-import Logo from '../Assets/header-logo.png';
-import './Stylesheet.css';
+import NavBar from '../NavBar';
+import Logo from '../../Assets/header-logo.png';
+import '../Stylesheet.css';
 
 function Header(){
     return(

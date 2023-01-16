@@ -34,6 +34,10 @@ a {
     font-weight: bold;
 }
 
+a:active {
+    color:#C3A510;
+}
+
 a:hover {
     color: #495E57;
 }
@@ -48,6 +52,8 @@ main {
 
 header {
     width: 100%;
+    background-color: #EDEFEE;
+    position: fixed;
     display: inline-flex;
     justify-content: space-around;
     align-content: center;
@@ -55,8 +61,6 @@ header {
 }
 
 #logo {
-    grid-column-start: 3;
-    grid-column-end: 5;
     width: 15vw;
 }
 
@@ -145,6 +149,7 @@ header {
 /*---Reserve-a-table.js---*/
 
 #container {
+    padding-top: 50px;
     width: 100%;
     display: inline-flex;
     justify-content: space-around;
@@ -178,6 +183,7 @@ header {
     /* start of medium tablet styles */
     #container {
         display: flex;
+        padding-top: 70px;
     }
 
     #info-container {
@@ -217,6 +223,7 @@ button {
     padding: 10px 20px;
     font-weight: bold;
     font-size: 14px;
+    cursor: pointer;
 }
 
 /*---Specials.js---*/
@@ -263,6 +270,7 @@ button {
 .food-image {
     width: 250px;
     height: 250px;
+    object-fit: cover;
 }
 
 .order-container {
@@ -299,6 +307,7 @@ button {
 
     .food-image {
         width: 50vw;
+        object-fit: cover;
         height: auto;
         text-align: center;
         align-items: center;
@@ -313,3 +322,35 @@ button {
         margin-right: 5px;
     }
     }
+
+/*---Reservation.js---*/
+
+form {
+    padding-top: 70px;
+    background-color: #495E57;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+label {
+    font-size: 1.5rem;
+    font-family: Markazi Text, serif;
+    color: #F4CE14;
+    margin: 15px;
+}
+#form-button {
+    width: auto;
+    background-color: #F4CE14;
+    border: none;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}

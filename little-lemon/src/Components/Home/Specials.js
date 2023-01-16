@@ -1,9 +1,9 @@
 import React from "react";
-import Salad from "../Assets/GreekSalad.jpg";
-import Gyro from "../Assets/Gyro.jpg";
-import Dessert from "../Assets/LemonDessert.jpg";
+import Salad from "../../Assets/GreekSalad.jpg";
+import Gyro from "../../Assets/Gyro.jpg";
+import Dessert from "../../Assets/LemonDessert.jpg";
 import {FaCarSide} from "react-icons/fa";
-import './Stylesheet.css';
+import '../Stylesheet.css';
 
 function Specials(){
     return(

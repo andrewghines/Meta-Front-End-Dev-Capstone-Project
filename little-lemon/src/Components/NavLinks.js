@@ -1,15 +1,16 @@
 import './Stylesheet.css';
-import Header from './Header';
+import { React } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const NavLinks = () => {
     return(
         <ul>
-            <li><a href={'#' + Header}>Home</a></li>
-            <li><a href={'#' + Header}>About</a></li>
-            <li><a href={'#' + Header}>Menu</a></li>
-            <li><a href={'#' + Header}>Reservations</a></li>
-            <li><a href={'#' + Header}>Order Online</a></li>
-            <li><a href={'#' + Header}>Log In</a></li>
+            <li><a href={'#'}><NavLink exact to='/'>Home</NavLink></a></li>
+            <li><a href={'#'}><NavLink exact to='/'>About</NavLink></a></li>
+            <li><a href={'#'}><NavLink exact to='/'>Menu</NavLink></a></li>
+            <li><a href={'#'}><NavLink exact to='../Components/Reservation/Reservation'>Reservations</NavLink></a></li>
+            <li><a href={'#'}><NavLink exact to='/'>Order Online</NavLink></a></li>
+            <li><a href={'#'}><NavLink exact to='/'>Log In</NavLink></a></li>
         </ul>
     )
 }

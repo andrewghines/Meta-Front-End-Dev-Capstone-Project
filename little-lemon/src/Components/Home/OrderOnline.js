@@ -1,5 +1,5 @@
 import React from "react";
-import './Stylesheet.css';
+import '../Stylesheet.css';
 
 function OrderOnline(){
     return(

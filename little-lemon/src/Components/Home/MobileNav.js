@@ -1,4 +1,4 @@
-import NavLinks from "../Components/NavLinks";
+import NavLinks from "./NavLinks";
 import { HiMenu } from "react-icons/hi";
 import { GrClose } from "react-icons/gr";
 import { useState } from "react";
