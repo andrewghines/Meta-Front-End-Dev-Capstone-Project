@@ -1,16 +1,13 @@
-import React from "react"
-import Nav from './Nav'
+import React from "react";
+import NavBar from "./NavBar";
+import Logo from '../Assets/header-logo.png';
+import './Stylesheet.css';
 
 function Header(){
     return(
-        <header style={{
-            display: 'grid',
-            gridAutoFlow: 'row',
-            textAlign: 'center',
-            gridAutoRows: 'repeat(12, 100px)'
-        }}>
-            <img alt="Little Lemon Logo"/>
-            <Nav/>
+        <header>
+            <img id='logo' src={Logo} alt="Little Lemon Logo"/>
+            <NavBar/>
         </header>
     )
 }
