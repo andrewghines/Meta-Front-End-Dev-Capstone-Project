@@ -1,5 +1,6 @@
 import Header from './Components/Home/Header'
 import Home from './Components/Home/Home';
+import Footer from './Components/Footer';
 import Reservation from './Components/Reservation/Reservation';
 import React from 'react';
 import { Route, Routes, HashRouter } from 'react-router-dom';
@@ -15,6 +16,7 @@ function App() {
                 <Route exact path='/Components/Reservation/Reservation' element={<Reservation/>}/>
             </Routes>
         </div>
+        <Footer/>
         </HashRouter>
     </>
   );

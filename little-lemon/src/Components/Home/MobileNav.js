@@ -6,8 +6,8 @@ import { useState } from "react";
 const MobileNavigation = () => {
 
     const [open, handleOpen] = useState(false);
-    const hamburgerIcon = <HiMenu id="hamburger" size={'40px'} onClick={() => handleOpen(!open)}/>;
-    const closeIcon = <GrClose id="close" size={'40px'} onClick={() => handleOpen(!open)}/>;
+    const hamburgerIcon = <HiMenu id="hamburger" size={'25px'} onClick={() => handleOpen(!open)}/>;
+    const closeIcon = <GrClose id="close" size={'20px'} onClick={() => handleOpen(!open)}/>;
 
     return (
         <nav id="mobile-navigation">
